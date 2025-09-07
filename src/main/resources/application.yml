@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: chatapp
+
+  redis:
+    host: redis-13017.c305.ap-south-1-1.ec2.redns.redis-cloud.com
+    port: 13017
+    password: qaWUX9eWWGv4isZCwW0m01aialdnJriX
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: chotabheemdholakpurwala@gmail.com
+    password: ijtvmcdpdrvvlrun
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+youtube:
+  api:
+    key: AIzaSyDcOSEhx8LpaG0MhheUC6EDY-bA3Tpp_nA
